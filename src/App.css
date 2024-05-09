@@ -1,0 +1,549 @@
+/* -------------- Sidebar --------- */
+.nav-container {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  height: 60px;
+  width: 65%;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  position: absolute;
+  top: 30px;
+}
+
+.navbar ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo img {
+  width: 100%;
+  height: 60px;
+  padding: 8px;
+}
+
+.logo-text {
+  color: #2c427b;
+  font-weight: lighter;
+}
+
+i {
+  float: left;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+ul li {
+  font-size: 1rem;
+  cursor: pointer;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.logo img {
+  width: 110px;
+  height: 110px;
+}
+
+/* ===================== Home =================== */
+.home_container {
+  background-color: #a1aac7;
+  padding: 150px 100px 20px;
+}
+
+.welcome {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.welcome .content {
+  width: 50%;
+}
+
+.welcome .img {
+  width: 50%;
+}
+
+.welcome .img img {
+  width: 100%;
+}
+
+.welcome h2 {
+  margin-bottom: 40px;
+  font-family: system-ui;
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: #0e3170;
+}
+
+.welcome p {
+  color: #2c427b;
+  line-height: 1.5;
+  font-size: 18px;
+  font-family: system-ui;
+}
+
+.corporations_p {
+  color: #0e3170;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+/* =================== Profile ================= */
+.profile {
+  width: 100%;
+  padding-top: 90px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./assets/background.png);
+  background-size: contain;
+}
+
+/* -------- form-------- */
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.box {
+  background-color: #fff;
+  padding: 15px 30px;
+  margin: 50px;
+  width: 35%;
+  text-align: center;
+  color: #000;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+label span {
+  color: red;
+  font-size: 25px;
+}
+
+input {
+  padding: 7px;
+  border-radius: 10px;
+  background-color: #ebebeb;
+  border: none;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.form-text {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.form-text input {
+  float: left;
+  width: 20px;
+}
+
+.form-text p {
+  text-decoration: underline;
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #000;
+}
+
+.register {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.forget {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  color: #fff;
+  background-color: #0e3170;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 13px 20px;
+  width: 40%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.form-icon {
+  font-size: 6rem;
+  float: unset;
+}
+
+.notifications {
+  margin-top: 10px;
+}
+
+.notifications p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.noti {
+  display: flex;
+  align-items: center;
+  line-height: normal;
+  justify-content: space-evenly;
+}
+
+.noti input {
+  width: auto;
+  margin-left: 10px;
+  align-self: center;
+  background-color: #ebebeb;
+  border-radius: 30%;
+  width: 25px;
+  height: 20px;
+}
+
+.btn-container {
+  position: relative;
+  width: 50%;
+}
+
+.save-btn {
+  width: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.signout-btn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* ===================== Dashboard ============== */
+.dashboard {
+  width: 100%;
+  padding: 140px 150px;
+  background-color: #a1aac7;
+}
+
+.dash-title {
+  color: #0e3170;
+  margin-bottom: 30px;
+  font-family: "Segoe UI";
+  font-weight: 100;
+}
+
+.inputs {
+  margin-bottom: 50px;
+}
+
+.inputs div {
+  margin-bottom: 40px;
+}
+
+.inputs div input {
+  height: 50px;
+}
+
+.select-input {
+  height: 50px;
+  color: #838383;
+  padding: 10px 8px;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+}
+
+/* =================== Predictions ================= */
+.predictions {
+  width: 100%;
+  padding-top: 120px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #a1aac7;
+}
+
+.predictions h4,
+p {
+  margin-bottom: 10px;
+  color: #0e3170;
+}
+
+.corporations {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.corporations .cor-item {
+  background-color: #fff;
+  padding: 10px;
+  height: 130px;
+  width: 120px;
+  border-radius: 20px;
+  display: flex;
+}
+
+.corporations .cor-item:hover {
+  background-color: #0f2650;
+}
+
+.corporations .cor-item img {
+  width: 100%;
+  cursor: pointer;
+  transition: all 2s ease-in-out;
+}
+
+.home-cor-item {
+  background-color: #fff;
+  padding: 10px;
+  height: 170px;
+  width: 150px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.home-cor-item img {
+  width: 100%;
+  height: 60%;
+  cursor: pointer;
+  transition: all 2s ease-in-out;
+}
+
+.home-cor-item .current-price {
+  height: 40%;
+  padding: 10px;
+  color: green;
+  font-size: 20px;
+}
+
+.date {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.select-wrapper {
+  width: 380px;
+  margin: 20px;
+}
+
+.select-wrapper select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  background-color: #172b50;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.btn {
+  display: flex;
+}
+
+.search-btn {
+  background-color: #172b50;
+  color: #fff;
+  cursor: pointer;
+  width: 40%;
+  margin: 90px auto;
+  border: none;
+  padding: 10px;
+  font-size: 1.1rem;
+  border-radius: 10px;
+}
+
+/* ======================== Comapny Details ============== */
+.company_container {
+  background-color: #a1aac7;
+  padding: 150px 100px 20px;
+}
+
+.company_container h2 {
+  color: #0e3170;
+  font-family: system-ui;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+
+.company_container p {
+  color: rgb(209, 76, 76);
+  font-family: system-ui;
+}
+
+.company_container .data {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.company_container .data .prices {
+  width: 45%;
+  padding: 0 10px;
+}
+
+.company_container .data .graph {
+  width: 55%;
+}
+
+.company_container .data .graph img {
+  width: 100%;
+}
+
+.price {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+  padding: 20px;
+  color: #0e3170;
+  font-size: 1.4rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.7rem;
+  position: relative;
+}
+
+.company_logo {
+  width: 50%;
+}
+
+.price_name {
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.sar {
+  font-size: 1rem;
+}
+/* ========================= Register Page ================ */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url(./assets/background.png);
+  background-size: contain;
+  background-position: left;
+}
+
+.error-message {
+  color: red;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+/* ------------ intro ----------- */
+.intro {
+  text-align: center;
+  width: 70%;
+  height: 60%;
+  line-height: 3rem;
+}
+
+.intro .text {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* ========================= Verify Page ================ */
+.verify-form {
+  width: 60%;
+  margin: 40px auto;
+}
+
+.back_btn {
+  border-radius: 30px;
+  width: auto;
+  padding: 10px 30px;
+  background-color: #2c427b;
+  margin: 80px 0 0 0;
+}
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .intro {
+    margin: 20px;
+  }
+
+  .box {
+    width: auto;
+  }
+}
+
+.loading {
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7rem;
+}

@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(14, 49, 112);
+  background: linear-gradient(
+    180deg,
+    rgba(14, 49, 112, 1) 7%,
+    rgba(152, 152, 190, 1) 67%
+  );
+  /* height: 100vh; */
+}
+
+.page
+{
+  height: 100vh;
+}
+
+.d-flex
+{
+  display: flex;
+  gap: 10px;
+}
